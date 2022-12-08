@@ -1,10 +1,12 @@
 from diaries.DiarySample import DiarySample
+from diaries.RemiDiary import RemiDiary
 from diaries.GoDiary import GoDiary
 from diaries.GoDiary import GoDiary
 
 #↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(),
+    RemiDiary(),
     GoDiary(),
     ]
 

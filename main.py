@@ -1,13 +1,14 @@
 from diaries.DiarySample import DiarySample
 from diaries.RemiDiary import RemiDiary
 from diaries.GoDiary import GoDiary
-from diaries.GoDiary import GoDiary
+from diaries.K21142Diary import K21142Diary
 
 #↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(),
     RemiDiary(),
     GoDiary(),
+    K21142Diary(),
     ]
 
 for d in diaries:
